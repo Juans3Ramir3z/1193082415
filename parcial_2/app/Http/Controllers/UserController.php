@@ -15,9 +15,7 @@ class UserController extends Controller
        return view('user.index',compact('users'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
+   
     public function create()
     {
         //
